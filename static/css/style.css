@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.jumbo-header {
+    background-color: #FFE6E6;
+    color: black;
+}
+
+.nav-color {
+    background-color: #FFDDDD;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;   
+}
+
+.intro {
+    background-color: #FFEEEE;
+}
+
+.cards {
+    background-color: #FFF1F1;
+}
+
+.center-button {
+    justify-content: center;
+}
