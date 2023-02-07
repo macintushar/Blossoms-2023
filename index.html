@@ -15,7 +15,7 @@
 	
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container-r" id="home">
 		<div class="p-5 text-center jumbo-header">
 		  <h1 class="display-1">Blossoms 2023</h1> 
 		  <h5 class="display-4">School of Sciences</h5> 
@@ -38,13 +38,13 @@
 		</nav>
 	</div>
 	
-	<div class="container p-5 intro">
+	<div class="container p-5 intro mt-8	" id="about">
 		<h1 class="text-center">Welcome to Blossoms 2023</h1>
 		<br><br>
 		<h2>About Blossoms</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
-	<div class="container mt-1 cards p-5">
+	<div class="container mt-1 cards p-5" id="events">
 		<h2>Events conducted</h2>
 		<br>
 		<div class="row">
@@ -52,11 +52,11 @@
 				<div class="card" style="width:400px">
 					<img class="card-img-top" src="./static/img/cherry-blossoms.avif" alt="Card image">					
 					<div class="card-body">
-			  			<h4 class="card-title">John Doe</h4>
+			  			<h4 class="card-title">Event 1</h4>
 			  			<p class="card-text">Some example text.</p>
 			  			<div class="text-center">
-							<a href="#">
-							  <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none">View event details</button>
+							<a href="/event1-details.html">
+							  <button type="button" class="text-black bg-red-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none">View event details</button>
 						  </a>
 					  </div>
 					</div>
@@ -66,11 +66,11 @@
 				<div class="card" style="width:400px">
 					<img class="card-img-top" src="./static/img/cherry-blossoms.avif" alt="Card image">					
 					<div class="card-body">
-			  			<h4 class="card-title">John Doe</h4>
+			  			<h4 class="card-title">Event 2</h4>
 			  			<p class="card-text">Some example text.</p>
 			  			<div class="text-center">
-							<a href="#">
-							  <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none">View event details</button>
+							<a href="/event1-details.html">
+							  <button type="button" class="text-black bg-red-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none">View event details</button>
 						  </a>
 					  </div>
 					</div>
@@ -80,11 +80,11 @@
 				<div class="card" style="width:400px">
 					<img class="card-img-top" src="./static/img/cherry-blossoms.avif" alt="Card image">
 					<div class="card-body">
-			  			<h4 class="card-title">John Doe</h4>
+			  			<h4 class="card-title">Event 3</h4>
 			  			<p class="card-text">Some example text.</p>
 						<div class="text-center">
-			  				<a href="#">
-								<button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none">View event details</button>
+			  				<a href="/event1-details.html">
+								<button type="button" class="text-black bg-red-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none">View event details</button>
 							</a>
 						</div>
 					</div>
@@ -92,6 +92,36 @@
 			</div>
 		</div>
 	</div>
+	<div class="container p-5 mt-1 intro text-center" id="contact">
+		<h2 class="text-center">Contact Us</h2>
+		<p class="text-center">Reach out to us for any queries	</p>
+		<hr>
+		<br>
+		<br>	
+		<div class="row">
+			<div class="col-md-4">
+				<h3 class="text-center"><b>Address</b></h3>
+				<h4>CHRIST (Deemed to be University),
+					Central Campus, Hosur Road, Bengaluru, Karnataka 560029</h4>
+			</div>
+			<div class="col-md-4">
+				<h3><b>Phone Number</b></h3>
+				<h5>Student A - +91 0123456789</h5>
+				<h5>Prof. X - +91 0123456789</h5>
+			</div>
+			<div class="col-md-4">
+				<h3 class="text-center"><b>Email</b></h3>
+				<h5>blossoms@christuniversity.in</h5>
+				<h5>studentA@cs.christuniversity.in</h5>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-r nav-color p-3 mt-4 text-center">
+		<p>© All rights reserved CHRIST (Deemed to be University), Department of Computer Science & Google Developer Students Club - CHRIST (Deemed to be University)</p>
+	</div>
+
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
 </body>
 </html>

@@ -8,9 +8,16 @@ h2 {
     font-weight: 500;
 }
 
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: larger;
+}
+
 .jumbo-header {
     background-color: #FFE6E6;
     color: black;
+    /*color:#fff!important;background-color:RGBA(220,53,69,var(--bs-bg-opacity,1))!important*/
 }
 
 .nav-color {
@@ -31,3 +38,4 @@ h2 {
 .center-button {
     justify-content: center;
 }
+    
