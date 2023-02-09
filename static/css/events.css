@@ -1,5 +1,7 @@
-.card{
-    width : 400px;
+.cards{
+    margin-top: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 :root{
@@ -30,8 +32,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 30px;
-    column-gap: 25px;
     justify-items: center;
+    justify-content: space-between;
 }
 
 .event_card{
@@ -65,7 +67,8 @@
     border-radius: 10px 10px 0px 0px;
     height: 220px;
     object-fit: cover;
-    opacity: 95%;
+    /* opacity: 90%; */
+    filter: brightness(85%);
 }
 
 .event_link{
