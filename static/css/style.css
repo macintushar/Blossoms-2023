@@ -28,14 +28,27 @@ h4 {
 }
 
 .intro {
-    background-color: #FFEEEE;
+    background-color: #FAF0CA;
 }
 
 .cards {
-    background-color: #FFF1F1;
+    background-color: #FAF0CA;
 }
 
 .center-button {
     justify-content: center;
 }
-    
+
+.footer-main {
+    background-color: #FAF0CA;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+}
+
+.footer-bottom{
+    background-color: #F4D35E;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+}

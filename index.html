@@ -10,114 +10,144 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 	
 	<link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/events.css">
+    <link rel="stylesheet" href="./static/css/header.css">
 
 	<title>School of Sciences | Blossoms 2023</title>
 	
 </head>
 <body>
 	<div class="container-r" id="home">
-		<div class="p-5 text-center jumbo-header">
-		  <h1 class="display-1">Blossoms 2023</h1> 
-		  <h5 class="display-4">School of Sciences</h5> 
-		</div>
-		<nav class="navbar navbar-expand-sm nav-color justify-content-center">
-			<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">About</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Events</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Contact</a>
-			</li>
+		<div class="main-header">
+			<img
+			  src="./static/img/blossoms-23-long.png"
+			  class="blossoms-logo"
+			  alt="blossoms-logo"
+			/>
+			<h1 class="school-of-sciences">School of Sciences</h1>
+		  </div>
+		  <nav>
+			<ul>
+			  <li><a href="#" class="nav-links">Home</a></li>
+			  <li><a href="#" class="nav-links">About</a></li>
+			  <li><a href="#" class="nav-links">Events</a></li>
+			  <li><a href="#" class="nav-links">Contact</a></li>
 			</ul>
-		</nav>
+		  </nav>
 	</div>
 	
-	<div class="container p-5 intro mt-8	" id="about">
+	<div class="container p-5 intro mt-8" id="about">
 		<h1 class="text-center">Welcome to Blossoms 2023</h1>
 		<br><br>
 		<h2>About Blossoms</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
-	<div class="container mt-1 cards p-5" id="events">
-		<h2>Events conducted</h2>
-		<br>
+	<div class="container cards">
+        <h2 id="heading_events">Events Conducted</h2>
+        <br>
+        <div class = "card_grid">
+            <div class="event_card">
+                <img class="card-img-top" src="./static/img/painting-thumb.jpg" alt="Card image">	
+                <div class="card_body">
+                    <div class="card_title">
+                        Arts Events
+                    </div>
+                    <div class="card_text">
+                        Events like pot and poster painting, cartooning and greeting card making.
+                    </div>
+                    <div class="event_details">
+                        <a href="./event1-details.html" class ="event_link">
+                            View Event Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="event_card">
+                <img class="card-img-top" src="./static/img/stage-thumb.jpg" alt="Card image">	
+                <div class="card_body">
+                    <div class="card_title">
+                        Stage Events
+                    </div>
+                    <div class="card_text">
+                        It includes solo as well as group dance performances, battle of bands and Mime.
+                    </div>
+                    <div class="event_details">
+                        <a href="./event1-details.html" class ="event_link">
+                            View Event Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="event_card">
+                <img class="card-img-top" src="./static/img/literary-thumb.png" alt="Card image">	
+                <div class="card_body">
+                    <div class="card_title">
+                        Literary Events
+                    </div>
+                    <div class="card_text">
+                        Events like Debate, JAM, Quiz, Pot pouuri and extempore.
+                    </div>
+                    <div class="event_details">
+                        <a href="./event1-details.html" class ="event_link">
+                            View Event Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="event_card">
+                <img class="card-img-top" src="./static/img/theatre-thumb.webp" alt="Card image">	
+                <div class="card_body">
+                    <div class="card_title">
+                        Theatre Events
+                    </div>
+                    <div class="card_text">
+                        Events like Street and Proscenium Theatre performances.
+                    </div>
+                    <div class="event_details">
+                        <a href="./event1-details.html" class ="event_link">
+                            View Event Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="event_card">
+                <img class="card-img-top" src="./static/img/dance-thumb.jpg" alt="Card image">	
+                <div class="card_body">
+                    <div class="card_title">
+                        Inter Deanery Dance
+                    </div>
+                    <div class="card_text">
+                        Inter Deanery dance competition. Inter Deanery dance competition.
+                    </div>
+                    <div class="event_details">
+                        <a href="./event1-details.html" class ="event_link">
+                            View Event Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+	<div class="container-r footer-main p-3 mt-4">
 		<div class="row">
-			<div class="col-md-4">
-				<div class="card" style="width:400px">
-					<img class="card-img-top" src="./static/img/cherry-blossoms.avif" alt="Card image">					
-					<div class="card-body">
-			  			<h4 class="card-title">Event 1</h4>
-			  			<p class="card-text">Some example text.</p>
-			  			<div class="text-center">
-							<a href="./event1-details.html">
-							  <button type="button" class="text-black bg-red-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none">View event details</button>
-						  </a>
-					  </div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="card" style="width:400px">
-					<img class="card-img-top" src="./static/img/cherry-blossoms.avif" alt="Card image">					
-					<div class="card-body">
-			  			<h4 class="card-title">Event 2</h4>
-			  			<p class="card-text">Some example text.</p>
-			  			<div class="text-center">
-							<a href="./event1-details.html">
-							  <button type="button" class="text-black bg-red-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none">View event details</button>
-						  </a>
-					  </div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="card" style="width:400px">
-					<img class="card-img-top" src="./static/img/cherry-blossoms.avif" alt="Card image">
-					<div class="card-body">
-			  			<h4 class="card-title">Event 3</h4>
-			  			<p class="card-text">Some example text.</p>
-						<div class="text-center">
-			  				<a href="./event1-details.html">
-								<button type="button" class="text-black bg-red-300 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none">View event details</button>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container p-5 mt-1 intro text-center" id="contact">
-		<h2 class="text-center">Contact Us</h2>
-		<p class="text-center">Reach out to us for any queries	</p>
-		<hr>
-		<br>
-		<br>	
-		<div class="row">
-			<div class="col-md-4">
-				<h3 class="text-center"><b>Address</b></h3>
-				<h4>CHRIST (Deemed to be University),
-					Central Campus, Hosur Road, Bengaluru, Karnataka 560029</h4>
-			</div>
-			<div class="col-md-4">
-				<h3><b>Phone Number</b></h3>
-				<h5>Student A - +91 0123456789</h5>
-				<h5>Prof. X - +91 0123456789</h5>
-			</div>
-			<div class="col-md-4">
-				<h3 class="text-center"><b>Email</b></h3>
-				<h5>blossoms@christuniversity.in</h5>
-				<h5>studentA@cs.christuniversity.in</h5>
-			</div>
-		</div>
-	</div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <img src="./static/img/blossoms-23-long.png" alt="Blossoms 2023">
+                <hr>
+                <h6>Blossoms is the intra-deanery cultural fest at Christ University with the motto ‘Be the best’. This is a unique venture where all 7000 students of Christ University, Bangalore participate in a cultural event. The events are divided into four categories – Art, Theatre, Stage & Literary. Students compete in 23 events across these categories. The winners lay their hands on the Inter-Deanery Christ University trophy for Artistic Excellence and Service.</h6>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-2 mt-1">
+                <h5><b>Contact Us</b></h5>
+                <hr>
 
-	<div class="container-r nav-color p-3 mt-4 text-center">
+                <h6><b>Phone: </b> +91 1230456789</h6>
+                <h6><b>Email: </b> email@bca.christuniversity.in</h6>
+            </div>
+        </div>
+	</div>
+    <div class="container-r footer-bottom p-3 text-center">
 		<p>© All rights reserved CHRIST (Deemed to be University), Department of Computer Science & Google Developer Students Club - CHRIST (Deemed to be University)</p>
 	</div>
 
