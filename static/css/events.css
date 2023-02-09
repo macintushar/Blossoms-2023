@@ -4,7 +4,7 @@
 
 :root{
     --background_color:#FAF0CA;
-    --dark_yellow:#F4D35E;
+    --dark_yellow:#fedd71;
     --blue:#0D3B66;
     --orange:#EE964B;
     --light_red:#F95738;
@@ -37,7 +37,7 @@
 .event_card{
     display: flex;
     flex-direction:column;
-    border: 1px solid rgb(158, 158, 158);
+    border: 1px solid rgba(0, 0, 0, 0.678);
     border-radius: 10px;
     padding: 0px;
     width: 400px;
@@ -47,7 +47,8 @@
     padding: 10px 12px; 
     background-color: white;
     border-radius: 0px 0px 10px 10px;
-    border-top: 1px solid rgb(181, 181, 181);
+    border-top: 1px solid rgba(0, 0, 0, 0.678);
+    background: #fcffdc;
 }
 
 .card_title{
@@ -59,16 +60,18 @@
     font-size : 1.rem;
 }
 
+
 .card-img-top{
     border-radius: 10px 10px 0px 0px;
     height: 220px;
     object-fit: cover;
+    opacity: 95%;
 }
 
 .event_link{
     text-align: center;
     border-radius: 5px;
-    border: 0.5px solid rgb(161, 161, 161);
+    border: 1px solid rgba(70, 70, 70, 0.678);
     padding: 7px 10px;
     font-size: 0.9rem;
     text-decoration: none;
@@ -82,8 +85,8 @@
 }
 
 .event_link:hover{
-    background-color: var(--orange);
-    transition: 0.2s;
+    background-color: var(--dark_yellow);
+    transition: 0.25s;
     color: rgb(0, 0, 0);
-    box-shadow: 5px #e6e6e6;
+    box-shadow: 2px 2px 2px 2px #e6e6e6;
 }
