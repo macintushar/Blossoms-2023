@@ -7,18 +7,19 @@
     display: grid;
     place-content: center;
     height: 40vh;
-    background-image: url(../img/cherry-blossoms.avif);
+    background-image: url(../img/cherry-blossoms-background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     object-fit: cover;
+    padding-top: 30px;
     background-color: #ffe6e6;
 }
 .blossoms-header{
     font-size: 6em;
 }
 .blossoms-logo{
-    height: 100px;
+    height: 130px;
 }
 .school-of-sciences{
     font-weight: 300;
@@ -37,7 +38,8 @@ nav > ul{
     color: rgba(0, 0, 0, .55);
     transition: all 300ms;
     font-weight: 600;
+    font-size: 1.2rem;
 }
 .nav-links:hover{
-    color:rgba(0, 0, 0, .75)
+    color:rgba(0, 0, 0, .75);
 }
