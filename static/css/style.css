@@ -39,6 +39,12 @@ h4 {
     justify-content: center;
 }
 
+#blossoms_description
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Footer */
 .footer-main {
     background-color: #FAF0CA;
